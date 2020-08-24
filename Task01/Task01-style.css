@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+h1.main-style {
+    padding: 0.5em;
+    color: #ffffff;
+    background: #ff7700;
+    border: solid 3px #ff9900;
+}
+
+h2.main-style a{
+    padding: 0.50em;
+    color: #ffffff;
+    background: #1d1de7;
+    border: solid 1px;
+    text-decoration: none;   
+}
+
+h3.main-style {
+    margin: 0.25px;
+    font-size: 30px;
+    color: #ffffff
+}
+h4.main-style {
+    margin: 0.25px;
+    font-size: 20px;
+}
+h5.main-style {
+    margin: 0.25px;
+    background-color: #ffffff;
+    font-size: 18px;
+}
+
+#checkrist .wrapper {
+    float: left;
+    overflow: hidden;
+}
+#checkrist .item {
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    max-width: 40%;
+    height: auto;
+}
+#checkrist .item .img {
+    width: 100%;
+}
+.item h2 {
+    margin: 1em;
+    font-size: 16px;
+}
+.item p {
+    margin: 0;
+    font-size: 14px;
+    color: #666
+}
+
+.breadcrumb ol {
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding: 0;
+}
+.breadcrumb li {
+    display: inline;
+}
+.breadcrumb li::after {
+    content: "≫";
+    color: #999;
+}
+.breadcrumb li:last-child::after {
+    content: none;
+}
+.breadcrumb a {
+    text-decoration: none;
+    color: #1864b9;
+}
+
+#CB_title  {
+    overflow: hidden;
+    background-color: #1574a0;
+    margin: 20px;
+    padding: 10px;
+}
+#CB_title h4.main-style {
+    padding: 5px 5px 5px 10px;
+    color: #ffffff;
+}
+#CB_title h5.main-style {
+    padding: 0 0 0 15px;
+    width: 30%;
+}
+#CB_title .img-responsive {
+    display: block;
+    max-width: 40%;
+    height: auto;
+    float: right;    
+}
+
+#CB_text h5.main-style {
+    color: #1574a0;
+}
+
+#CB_ex th {
+    border: 1px solid #1574a0;
+    padding: 0;
+}
+
+#ITs_title  {
+    overflow: hidden;
+    background-color: #0f249c;
+    margin: 20px;
+    padding: 10px;
+}
+#ITs_title h4.main-style {
+    padding: 5px 5px 5px 10px;
+    color: #ffffff;
+}
+#ITs_title h5.main-style {
+    padding: 0 0 0 15px;
+    width: 30%;
+}
+#ITs_title .img-responsive {
+    display: block;
+    max-width: 40%;
+    height: auto;
+    float: right;    
+}
+
+#ITs_text h5.main-style {
+    color: #0f249c;
+}
+
+
+#ITs_ex th {
+    border: 1px solid #0f249c;
+    padding: 0;
+}
