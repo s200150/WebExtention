@@ -1,32 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>フォーム</title>
-<style>
-body {
-	margin: 0;
-}
-form {
-	padding: 16px;
-}
-input {
-	box-sizing: border-box;
-}
-input[type="text"] {
-	margin: 0.5em 0;
-	padding: 0.5em;
-	width: 100%;
-	font-size: 16px;
-}
-</style>
+	<title>chapter11 標準的なフォームの例</title>
+	<link rel="stylesheet" href="ch11-form.css">
 </head>
 <body>
-<form action="#" method="post">
-	<p><label for="name-field">お名前<span class="required">*必須</span></label><br>
+<form action="#" method="POST" id="contact">
+	<p><label for="name-field">お名前</label><br>
 	<input type="text" name="name" id="name-field"></p>
+	<p><label for="email-field">メールアドレス</label><br>
+	<input type="email" name="name" id="email-field"></p>
+	<p><label for="comment">お問い合わせの内容</label><br>
+	<textarea name="comment" id="comment"></textarea></p>
+	<p class="submit-p"><input type="submit" value="送信する" id="submit" name="submit"></p>
 </form>
 </body>
 </html>
-
-<!--p178--!>
